@@ -26,5 +26,3 @@ playerName = raw_input()
 
 print "\n\nThat is the worst %s name i've ever heard, but okay..." % (playerRace)
 print "You are Lord %s. Warrior for the %s race" % (playerName, playerRace)
-
-print "your mother"
