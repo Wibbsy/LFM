@@ -14,7 +14,7 @@ while waiting:
         waiting = False
     elif choice == 3:
         playerRace = "Elf"
-        print "You hide very pointy ears behinid those flowing locks of yours."
+        print "You hide very pointy ears behind those flowing locks of yours."
         waiting = False
     elif choice == 4:
         print "No you're not\n"
@@ -26,3 +26,21 @@ playerName = raw_input()
 
 print "\n\nThat is the worst %s name i've ever heard, but okay..." % (playerRace)
 print "You are Lord %s. Warrior for the %s race" % (playerName, playerRace)
+
+print "How about your loyal canine friend. What's his name?"
+dogsName = raw_input()
+print "\n"
+print "Your name: %s" % (playerName)
+print "Your race: %s" % (playerRace)
+print "Your dog's name: %s" % (dogsName)
+print"\nIs this correct?(y/n)"
+
+waiting = True
+while waiting:
+    playerInput = raw_input()
+    if playerInput == "y":
+        waiting = False
+    elif playerInput == "n":
+        print "\nGame Over...\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game"
+    else:
+        print "That is not an option"
