@@ -1,8 +1,14 @@
+asciiFile = open('art/gameTitle.txt')
+lines = asciiFile.readlines()
+asciiFile.close()
+for line in lines:
+    print line.rstrip()
+
 print "\n\nWelcome to King of the Flesh Munchers"
 
 waiting = True
 while waiting:
-    print "What is your race?\n1.Human\n2.Dworf\n3.Elf\n4.Black Guy"
+    print "What is your race?\n1.Human\n2.Dworf\n3.Elf\n"
     choice = int(raw_input())
     if choice == 1:
         playerRace = "Human"
@@ -16,8 +22,6 @@ while waiting:
         playerRace = "Elf"
         print "You hide very pointy ears behind those flowing locks of yours."
         waiting = False
-    elif choice == 4:
-        print "No you're not\n"
     else:
         print "That is not an option"
     
