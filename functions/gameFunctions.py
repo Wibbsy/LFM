@@ -19,3 +19,5 @@ def swingWeapon(weaponType,weaponDmg):
     print("Enemy health is %s.") % (enemyHp)
     enemyHp -= weaponDmg   
     print("Enemy's health is %s.") % (enemyHp)
+    
+print("what?")
