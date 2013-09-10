@@ -28,15 +28,20 @@ while waiting:
 print "\n\nand your name...? "
 playerName = raw_input()
 
-print "\n\nThat is the worst %s name i've ever heard, but okay..." % (playerRace)
+print "\nThat is the worst %s name i've ever heard, but okay..." % (playerRace)
 print "You are Lord %s. Warrior for the %s race" % (playerName, playerRace)
 
 print "\nHow about your loyal canine friend. What's his name?"
 dogsName = raw_input()
+
+print "Lastly, enter your hardcore one-liner sentence"
+playerOneLiner = raw_input()
+
 print "\n"
 print "Your name: %s" % (playerName)
 print "Your race: %s" % (playerRace)
 print "Your dog's name: %s" % (dogsName)
+print "Your hardcore one liner is \"%s\"" % (playerOneLiner)
 print"\nIs this correct?(y/n)"
 
 waiting = True
