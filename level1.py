@@ -51,4 +51,4 @@ while waiting:
     else:
         print "That is not an option"
 
-print("Sup")
+print("Sup dude")
