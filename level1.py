@@ -1,8 +1,4 @@
-asciiFile = open('art/gameTitle.txt')
-lines = asciiFile.readlines()
-asciiFile.close()
-for line in lines:
-    print line.rstrip()
+import functions.gameFunctions
 
 print "\n\nWelcome to King of the Flesh Munchers"
 
@@ -50,6 +46,7 @@ while waiting:
     if playerInput == "y":
         waiting = False
     elif playerInput == "n":
-        print "\nGame Over...\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game"
+        gameOver("\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game")
+        #print "\nGame Over...\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game"
     else:
         print "That is not an option"
