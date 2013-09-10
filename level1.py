@@ -46,7 +46,7 @@ while waiting:
     if playerInput == "y":
         waiting = False
     elif playerInput == "n":
-        gameOver("\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game")
+        functions.gameFunctions.gameOver("\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game")
         #print "\nGame Over...\nYou couldn't even handle entering simple information about yourself.\nThere is no way you could handle the rest of this game"
     else:
         print "That is not an option"
