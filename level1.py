@@ -41,7 +41,7 @@ print "\n"
 print "Your name: %s" % (playerName)
 print "Your race: %s" % (playerRace)
 print "Your dog's name: %s" % (dogsName)
-print "Your hardcore one liner is \"%s\"" % (playerOneLiner)
+print "Your hardcore one liner is: \"%s\"" % (playerOneLiner)
 print"\nIs this correct?(y/n)"
 
 waiting = True
